@@ -6,7 +6,7 @@ export msfinst="$cwd/$name"
 #sha_actual=$(sha256sum $(echo $msfinst))
 #echo $sha_actual
 
-msfvar=4.16.16
+msfvar=4.16.50
 msfpath='/data/data/com.termux/files/home'
 if [ -d "$msfpath/metasploit-framework" ]; then
 	echo "metasploit is installed"
